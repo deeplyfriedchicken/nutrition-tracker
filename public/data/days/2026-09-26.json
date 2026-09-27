@@ -3,19 +3,19 @@
   "date": "2026-09-26",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 1555,
-    "protein": 122.4,
-    "carbs": 103,
-    "fat": 71.2,
-    "sugar": 17.6,
-    "fiber": 10.1,
-    "sodium": 3400,
+    "calories": 2597,
+    "protein": 143.3,
+    "carbs": 171.6,
+    "fat": 142.6,
+    "sugar": 40.9,
+    "fiber": 15.5,
+    "sodium": 4467,
     "waterMl": 1774
   },
   "goals": {
     "calories": 3493,
     "protein": 140,
-    "carbs": 472,
+    "carbs": 200,
     "fat": 85,
     "sugar": 25,
     "fiber": 25,
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 75,
       "isWater": false,
-      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
+      "updatedAt": "2026-09-27T05:55:15.798563+00:00",
       "nutrition": {
         "calories": 110,
         "protein": 6,
@@ -49,7 +49,7 @@
       "aiComment": null,
       "confidence": 92,
       "isWater": false,
-      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
+      "updatedAt": "2026-09-27T05:55:15.798563+00:00",
       "nutrition": {
         "calories": 240,
         "protein": 2,
@@ -68,7 +68,7 @@
       "aiComment": null,
       "confidence": 85,
       "isWater": false,
-      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
+      "updatedAt": "2026-09-27T05:55:15.798563+00:00",
       "nutrition": {
         "calories": 140,
         "protein": 10,
@@ -87,7 +87,7 @@
       "aiComment": null,
       "confidence": 90,
       "isWater": false,
-      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
+      "updatedAt": "2026-09-27T05:55:15.798563+00:00",
       "nutrition": {
         "calories": 210,
         "protein": 18,
@@ -106,7 +106,7 @@
       "aiComment": null,
       "confidence": 70,
       "isWater": false,
-      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
+      "updatedAt": "2026-09-27T05:55:15.798563+00:00",
       "nutrition": {
         "calories": 15,
         "protein": 0.2,
@@ -125,7 +125,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
+      "updatedAt": "2026-09-27T05:55:15.798563+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -144,7 +144,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
+      "updatedAt": "2026-09-27T05:55:15.798563+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -159,19 +159,95 @@
     {
       "id": "45567427-76fb-4bae-ae2c-cda08235e3ef",
       "description": "Chicken orzo with spinach and tomato",
-      "detailedDescription": "2 servings of Sun Dried Tomato, Spinach - Chicken Orzo",
+      "detailedDescription": "Chicken orzo with spinach and tomato 1.25 servings of Sun Dried Tomato, Spinach - Chicken Orzo User edit: The serving size was closer to 1.25.",
+      "aiComment": null,
+      "confidence": 90,
+      "isWater": false,
+      "updatedAt": "2026-09-27T05:55:15.798563+00:00",
+      "nutrition": {
+        "calories": 525,
+        "protein": 54,
+        "carbs": 41,
+        "fat": 16,
+        "sugar": 8,
+        "fiber": 5,
+        "sodium": 888,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "36732d0b-f343-41c4-b039-d3e18570702b",
+      "description": "Costco thin ribeye with butter",
+      "detailedDescription": "Costco Thin Ribeye Steak Cooked in Butter",
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-09-27T05:55:15.798563+00:00",
+      "nutrition": {
+        "calories": 597,
+        "protein": 40.4,
+        "carbs": 0,
+        "fat": 48.6,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 183,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "d85d7c05-9ba4-4972-8b0f-d35d69b6729c",
+      "description": "Oven-roasted medley potatoes",
+      "detailedDescription": "2x Medley potatoes cooked in oven",
       "aiComment": null,
       "confidence": 65,
       "isWater": false,
-      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
+      "updatedAt": "2026-09-27T05:55:15.798563+00:00",
       "nutrition": {
-        "calories": 840,
-        "protein": 86.2,
-        "carbs": 66.2,
-        "fat": 25.2,
-        "sugar": 12,
-        "fiber": 8,
-        "sodium": 1420,
+        "calories": 360,
+        "protein": 6,
+        "carbs": 52,
+        "fat": 10,
+        "sugar": 2,
+        "fiber": 4.2,
+        "sodium": 700,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "90ae8991-e22b-437e-9ab5-ecbe2089a7cd",
+      "description": "Miso salad",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-09-27T05:55:15.798563+00:00",
+      "nutrition": {
+        "calories": 190,
+        "protein": 4.7,
+        "carbs": 15.8,
+        "fat": 11,
+        "sugar": 6.3,
+        "fiber": 3.2,
+        "sodium": 631,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "d32e6356-57d7-4887-a4a7-89d4afd23bf6",
+      "description": "Trader Joe's Cookie Dough Bites",
+      "detailedDescription": "Trader Joe's Cookie Dough Ice Cream Bites",
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-09-27T05:55:15.798563+00:00",
+      "nutrition": {
+        "calories": 210,
+        "protein": 2,
+        "carbs": 26,
+        "fat": 11,
+        "sugar": 19,
+        "fiber": 1,
+        "sodium": 85,
         "waterMl": 0
       }
     }
