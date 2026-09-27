@@ -61,3 +61,31 @@ export function longDateLabel(dateStr: string): string {
 export function dayOfMonth(dateStr: string): number {
   return Number(dateStr.split("-")[2]);
 }
+
+function utcDate(dateStr: string): Date {
+  const [y, m, d] = dateStr.split("-").map(Number);
+  return new Date(Date.UTC(y, m - 1, d));
+}
+
+/** "Sep 14" (chart ticks). */
+export function shortDateLabel(dateStr: string): string {
+  return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", timeZone: "UTC" }).format(utcDate(dateStr));
+}
+
+/** "Sat, Sep 26" (chart tooltips). */
+export function tooltipDateLabel(dateStr: string): string {
+  return new Intl.DateTimeFormat("en-US", { weekday: "short", month: "short", day: "numeric", timeZone: "UTC" }).format(
+    utcDate(dateStr),
+  );
+}
+
+/** "Sep 14–Sep 27"; both ends get the year when the Range isn't inside today's year. */
+export function rangeLabel(range: { from: string; to: string }, today: string): string {
+  const year = today.slice(0, 4);
+  if (range.from.startsWith(year) && range.to.startsWith(year)) {
+    return `${shortDateLabel(range.from)}–${shortDateLabel(range.to)}`;
+  }
+  const withYear = (d: string) =>
+    new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }).format(utcDate(d));
+  return `${withYear(range.from)}–${withYear(range.to)}`;
+}

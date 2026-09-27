@@ -1,8 +1,10 @@
 import type { Day, WeighIn } from "../../domain/types";
 import { isGoalMet } from "../../domain/goalMet";
-import { formatLb, formatNumber } from "../../domain/format";
+import { formatNumber } from "../../domain/format";
+import { WATER_UNIT_LABEL, convertWater, formatWeight } from "../../domain/units";
 import { longDateLabel, weekdayLabel } from "../lib/calendar";
 import { GOAL_DOT_NUTRIENTS } from "../lib/goalDots";
+import type { UnitPrefs } from "../lib/unitPrefs";
 
 type Props = {
   date: string;
@@ -10,6 +12,7 @@ type Props = {
   isDay: boolean;
   loading: boolean;
   weighIns: WeighIn[];
+  units: UnitPrefs;
 };
 
 function latestWeighIn(weighIns: WeighIn[]): WeighIn | null {
@@ -17,7 +20,7 @@ function latestWeighIn(weighIns: WeighIn[]): WeighIn | null {
   return weighIns.reduce((a, b) => (a.recordedAt > b.recordedAt ? a : b));
 }
 
-export function Detail({ date, day, isDay, loading, weighIns }: Props) {
+export function Detail({ date, day, isDay, loading, weighIns, units }: Props) {
   const weighIn = latestWeighIn(weighIns);
 
   return (
@@ -27,19 +30,22 @@ export function Detail({ date, day, isDay, loading, weighIns }: Props) {
 
       {isDay && loading && <div className="empty-state" style={{ marginTop: 22 }}>Loading&hellip;</div>}
 
-      {isDay && !loading && day && <DayDetail day={day} weighIn={weighIn} />}
+      {isDay && !loading && day && <DayDetail day={day} weighIn={weighIn} units={units} />}
 
       {!isDay && (
         <div style={{ marginTop: 22 }}>
           <div className="empty-state">Nothing logged on this day.</div>
-          {weighIn && <div className="empty-state-weight">Weight: {formatLb(weighIn.kg)} lb</div>}
+          {weighIn && <div className="empty-state-weight">Weight: {formatWeight(weighIn.kg, units.weight)}</div>}
         </div>
       )}
     </div>
   );
 }
 
-function DayDetail({ day, weighIn }: { day: Day; weighIn: WeighIn | null }) {
+function DayDetail({ day, weighIn, units }: { day: Day; weighIn: WeighIn | null; units: UnitPrefs }) {
+  // Water is stored in ml; show it in the preferred unit. Goal Met stays in ml.
+  const water = (ml: number) => formatNumber(convertWater(ml, units.water));
+  const waterUnit = WATER_UNIT_LABEL[units.water];
   const foodItems = day.items.filter((item) => !item.isWater);
   const waterItems = day.items.filter((item) => item.isWater);
 
@@ -53,7 +59,7 @@ function DayDetail({ day, weighIn }: { day: Day; weighIn: WeighIn | null }) {
         <StatTile value={`${formatNumber(day.totals.protein)} g`} label="Protein" />
         <StatTile value={`${formatNumber(day.totals.carbs)} g`} label="Carbs" />
         <StatTile value={`${formatNumber(day.totals.fat)} g`} label="Fat" />
-        {weighIn && <StatTile value={`${formatLb(weighIn.kg)} lb`} label="Weight" />}
+        {weighIn && <StatTile value={formatWeight(weighIn.kg, units.weight)} label="Weight" />}
       </div>
 
       <div className="micro-row">
@@ -76,7 +82,9 @@ function DayDetail({ day, weighIn }: { day: Day; weighIn: WeighIn | null }) {
             if (goal === null) return null;
             const total = day.totals[key];
             const met = isGoalMet(key, total, goal);
-            const unit = key === "waterMl" ? "ml" : "g";
+            const isWater = key === "waterMl";
+            const show = isWater ? water : formatNumber;
+            const unit = isWater ? waterUnit : "g";
             return (
               <div className="chip" key={key}>
                 <span
@@ -86,7 +94,7 @@ function DayDetail({ day, weighIn }: { day: Day; weighIn: WeighIn | null }) {
                 <div>
                   <div className="chip-label">{label}</div>
                   <div className="chip-detail">
-                    {formatNumber(total)} / {formatNumber(goal)} {unit} &middot; {met ? "Met" : "Not met"}
+                    {show(total)} / {show(goal)} {unit} &middot; {met ? "Met" : "Not met"}
                   </div>
                 </div>
               </div>
@@ -100,7 +108,7 @@ function DayDetail({ day, weighIn }: { day: Day; weighIn: WeighIn | null }) {
           <span className="water-header-text">Water</span>
         </div>
         <div className="water-amount">
-          {formatNumber(day.totals.waterMl)} / {day.goals.waterMl !== null ? formatNumber(day.goals.waterMl) : "—"} ml
+          {water(day.totals.waterMl)} / {day.goals.waterMl !== null ? water(day.goals.waterMl) : "—"} {waterUnit}
         </div>
         <div className="water-caption">
           {waterItems.length > 0 ? `From: ${waterItems.map((i) => i.description).join(", ")}` : "No water logged"}

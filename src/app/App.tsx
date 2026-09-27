@@ -1,31 +1,29 @@
 import { useEffect, useRef, useState } from "react";
 import type { Day, DayIndex, WeighInLog } from "../domain/types";
+import { type Range, rangeFromUrl } from "../domain/range";
 import { fetchDay, fetchIndex, fetchWeighIns } from "./lib/data";
 import { isValidDateString, pickInitialDate } from "./lib/dateSelection";
 import { type MonthKey, monthKeyFromDate } from "./lib/calendar";
 import { todayInTimeZone } from "./lib/timezone";
+import { type View, readUrlState, writeUrlState } from "./lib/url";
+import { useUnitPrefs } from "./lib/unitPrefs";
 import { Calendar } from "./components/Calendar";
 import { Detail } from "./components/Detail";
+import { Trends } from "./components/Trends";
+import { ViewTabs } from "./components/ViewTabs";
 import "./styles.css";
-
-function getUrlDate(): string | null {
-  return new URLSearchParams(window.location.search).get("date");
-}
-
-function setUrlDate(date: string): void {
-  const url = new URL(window.location.href);
-  url.searchParams.set("date", date);
-  window.history.replaceState(null, "", url);
-}
 
 export function App() {
   const [index, setIndex] = useState<DayIndex | null>(null);
   const [indexError, setIndexError] = useState(false);
   const [weighIns, setWeighIns] = useState<WeighInLog>({ schemaVersion: 1, weighIns: {} });
+  const [view, setView] = useState<View>(() => readUrlState().view);
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
   const [visibleMonth, setVisibleMonth] = useState<MonthKey | null>(null);
+  const [range, setRange] = useState<Range | null>(null);
   const [selectedDay, setSelectedDay] = useState<Day | null>(null);
   const [dayLoading, setDayLoading] = useState(false);
+  const [units, setUnits] = useUnitPrefs();
   const dayCache = useRef(new Map<string, Day>());
 
   useEffect(() => {
@@ -35,15 +33,18 @@ export function App() {
         const dayDates = Object.keys(idx.days).sort();
         const timezone = idx.timezone || Intl.DateTimeFormat().resolvedOptions().timeZone;
         const today = todayInTimeZone(timezone);
-        const urlDate = getUrlDate();
+        const url = readUrlState();
         const initial = pickInitialDate({
-          urlDate: urlDate && isValidDateString(urlDate) ? urlDate : null,
+          urlDate: url.date && isValidDateString(url.date) ? url.date : null,
           today,
           dayDates,
         });
+        const initialRange = rangeFromUrl({ from: url.from, to: url.to }, { today });
         setSelectedDate(initial);
         setVisibleMonth(monthKeyFromDate(initial));
-        setUrlDate(initial);
+        setRange(initialRange);
+        // The URL always carries date, from and to, whichever view is open.
+        writeUrlState({ date: initial, from: initialRange.from, to: initialRange.to });
       })
       .catch(() => setIndexError(true));
 
@@ -85,42 +86,72 @@ export function App() {
   function selectDate(date: string) {
     setSelectedDate(date);
     setVisibleMonth(monthKeyFromDate(date));
-    setUrlDate(date);
+    writeUrlState({ date });
+  }
+
+  function selectView(next: View) {
+    setView(next);
+    writeUrlState({ view: next });
+  }
+
+  function selectRange(next: Range) {
+    setRange(next);
+    writeUrlState({ from: next.from, to: next.to });
   }
 
   const timezone = index ? index.timezone || Intl.DateTimeFormat().resolvedOptions().timeZone : null;
   const today = timezone ? todayInTimeZone(timezone) : null;
+  const ready = !indexError && index && selectedDate && visibleMonth && range && today;
 
   return (
     <div className="page">
       <div className="page-inner">
         <div className="header">
           <h1 className="heading-font title">Nutrition Calendar</h1>
-          <p className="subtitle">A read-only look back at what was logged, day by day.</p>
+          <p className="subtitle">A read-only look back at what was logged.</p>
         </div>
 
         {indexError && (
           <div className="error-state">Couldn&rsquo;t load nutrition data. Try refreshing the page.</div>
         )}
 
-        {!indexError && index && selectedDate && visibleMonth && today && (
-          <div className="layout">
-            <Calendar
-              index={index}
-              today={today}
-              selectedDate={selectedDate}
-              visibleMonth={visibleMonth}
-              onSelect={selectDate}
-              onMonthChange={setVisibleMonth}
-            />
-            <Detail
-              date={selectedDate}
-              day={selectedDay}
-              isDay={Boolean(index.days[selectedDate])}
-              loading={dayLoading}
-              weighIns={weighIns.weighIns[selectedDate] ?? []}
-            />
-          </div>
+        {ready && (
+          <>
+            <ViewTabs view={view} onChange={selectView} />
+
+            {view === "calendar" ? (
+              <div className="layout" role="tabpanel" id="panel-calendar" aria-labelledby="tab-calendar">
+                <Calendar
+                  index={index}
+                  today={today}
+                  selectedDate={selectedDate}
+                  visibleMonth={visibleMonth}
+                  onSelect={selectDate}
+                  onMonthChange={setVisibleMonth}
+                />
+                <Detail
+                  date={selectedDate}
+                  day={selectedDay}
+                  isDay={Boolean(index.days[selectedDate])}
+                  loading={dayLoading}
+                  weighIns={weighIns.weighIns[selectedDate] ?? []}
+                  units={units}
+                />
+              </div>
+            ) : (
+              <div role="tabpanel" id="panel-trends" aria-labelledby="tab-trends">
+                <Trends
+                  index={index}
+                  weighIns={weighIns}
+                  today={today}
+                  range={range}
+                  onRangeChange={selectRange}
+                  units={units}
+                  onUnitsChange={setUnits}
+                />
+              </div>
+            )}
+          </>
         )}
       </div>
     </div>
