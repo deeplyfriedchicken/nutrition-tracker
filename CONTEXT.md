@@ -34,3 +34,13 @@ _Avoid_: Goals (unqualified), targets
 **Goal Met**:
 Whether a Day's total for one nutrient satisfies its Goals Snapshot. Most nutrients are met by reaching at least the goal; sugar and sodium are met by staying at or under it. A nutrient with no goal has no Goal Met status.
 _Avoid_: Hit, on track, success
+
+### Looking across Days
+
+**Range**:
+An inclusive span of calendar dates in the user's Amy timezone, from a start date to an end date, over which Days are compared. A Range can include dates that aren't Days.
+_Avoid_: Period, window, span
+
+**In-progress Day**:
+The Day whose date is today in the user's Amy timezone. Its totals may still grow, so it isn't counted when summarising how many Days in a Range met their goals.
+_Avoid_: Today's Day, partial day, current day
