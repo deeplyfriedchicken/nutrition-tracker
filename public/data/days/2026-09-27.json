@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-27",
+  "timezone": "America/Los_Angeles",
+  "totals": {
+    "calories": 205,
+    "protein": 4.3,
+    "carbs": 44.5,
+    "fat": 0.4,
+    "sugar": 0.1,
+    "fiber": 0.6,
+    "sodium": 2,
+    "waterMl": 0
+  },
+  "goals": {
+    "calories": 3493,
+    "protein": 140,
+    "carbs": 200,
+    "fat": 85,
+    "sugar": 25,
+    "fiber": 25,
+    "sodium": 2300,
+    "waterMl": 3000
+  },
+  "items": [
+    {
+      "id": "058b1035-70b6-43a9-b851-b8c0a6a83897",
+      "description": "1 cup of cooked jasmine rice",
+      "detailedDescription": "1 cup of cooked jasmine rice",
+      "aiComment": null,
+      "confidence": 85,
+      "isWater": false,
+      "updatedAt": "2026-09-27T08:14:19.756656+00:00",
+      "nutrition": {
+        "calories": 205,
+        "protein": 4.3,
+        "carbs": 44.5,
+        "fat": 0.4,
+        "sugar": 0.1,
+        "fiber": 0.6,
+        "sodium": 2,
+        "waterMl": 0
+      }
+    }
+  ]
+}
