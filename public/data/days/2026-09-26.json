@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-26",
+  "timezone": "America/Los_Angeles",
+  "totals": {
+    "calories": 715,
+    "protein": 36.2,
+    "carbs": 36.8,
+    "fat": 46,
+    "sugar": 5.6,
+    "fiber": 2.1,
+    "sodium": 1980,
+    "waterMl": 887
+  },
+  "goals": {
+    "calories": 3493,
+    "protein": 182,
+    "carbs": 472,
+    "fat": 97,
+    "sugar": 25,
+    "fiber": 25,
+    "sodium": 2300,
+    "waterMl": 3000
+  },
+  "items": [
+    {
+      "id": "dca56c0a-12c6-4af3-88a1-4382527b0952",
+      "description": "Busseto Salami Snack",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-09-26T21:48:17.487227+00:00",
+      "nutrition": {
+        "calories": 110,
+        "protein": 6,
+        "carbs": 1,
+        "fat": 9,
+        "sugar": 1,
+        "fiber": 0,
+        "sodium": 480,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "b144d9ee-9ff5-4021-9168-4dab58851274",
+      "description": "2x Trader Joe's Hashbrowns",
+      "detailedDescription": "2x Trader Joe's Hashbrowns",
+      "aiComment": null,
+      "confidence": 92,
+      "isWater": false,
+      "updatedAt": "2026-09-26T21:48:17.487227+00:00",
+      "nutrition": {
+        "calories": 240,
+        "protein": 2,
+        "carbs": 30,
+        "fat": 12,
+        "sugar": 0,
+        "fiber": 2,
+        "sodium": 500,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "47522c3b-e7df-47a4-8165-9435c5d58bc6",
+      "description": "4x Turkey Bacon",
+      "detailedDescription": "4x Turkey Bacon",
+      "aiComment": null,
+      "confidence": 85,
+      "isWater": false,
+      "updatedAt": "2026-09-26T21:48:17.487227+00:00",
+      "nutrition": {
+        "calories": 140,
+        "protein": 10,
+        "carbs": 1.2,
+        "fat": 10,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 640,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "d0f08701-6032-4e45-9946-7938dc428cf5",
+      "description": "3 cooked large brown eggs",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 90,
+      "isWater": false,
+      "updatedAt": "2026-09-26T21:48:17.487227+00:00",
+      "nutrition": {
+        "calories": 210,
+        "protein": 18,
+        "carbs": 1.1,
+        "fat": 15,
+        "sugar": 1.1,
+        "fiber": 0,
+        "sodium": 210,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "156ab49b-38a2-4062-b2de-9def6f834373",
+      "description": "Heinz Tomato Ketchup",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-09-26T21:48:17.487227+00:00",
+      "nutrition": {
+        "calories": 15,
+        "protein": 0.2,
+        "carbs": 3.5,
+        "fat": 0,
+        "sugar": 3.5,
+        "fiber": 0.1,
+        "sodium": 150,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "9e42e1ba-1e98-4913-ba26-e3705abe25ab",
+      "description": "30oz of water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-09-26T21:48:17.487227+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 887
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+name: Amy data
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: "Backfill start date (YYYY-MM-DD). Leave blank to run a refresh instead."
+        required: false
+      end_date:
+        description: "Backfill end date (YYYY-MM-DD). Required when start_date is set."
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: amy-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      AMY_API_KEY: ${{ secrets.AMY_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Backfill
+        if: github.event_name == 'workflow_dispatch' && inputs.start_date != ''
+        env:
+          START_DATE: ${{ inputs.start_date }}
+          END_DATE: ${{ inputs.end_date }}
+        run: |
+          npm run backfill
+          echo "COMMIT_MESSAGE=data: backfill ${START_DATE}..${END_DATE}" >> "$GITHUB_ENV"
+
+      - name: Refresh
+        if: "!(github.event_name == 'workflow_dispatch' && inputs.start_date != '')"
+        run: |
+          OUTPUT="$(npm run --silent refresh)"
+          echo "$OUTPUT"
+          FIRST_DATE="$(echo "$OUTPUT" | grep -oP '(?<=FIRST_DATE=).*')"
+          LAST_DATE="$(echo "$OUTPUT" | grep -oP '(?<=LAST_DATE=).*')"
+          echo "COMMIT_MESSAGE=data: refresh ${FIRST_DATE}..${LAST_DATE}" >> "$GITHUB_ENV"
+
+      - name: Commit and push data
+        run: |
+          if [ -n "$(git status --porcelain public/data)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add public/data
+            git commit -m "$COMMIT_MESSAGE"
+            git push
+          else
+            echo "No data changes to commit."
+          fi

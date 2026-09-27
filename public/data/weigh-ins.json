@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "weighIns": {
+    "2026-03-01": [
+      {
+        "id": "65ae66a8-625c-4a88-b6cf-0fe5bf8fe15b",
+        "kg": 74.84268,
+        "recordedAt": "2026-03-02T01:59:08.517+00:00",
+        "source": "onboarding",
+        "notes": "Starting weight from onboarding"
+      },
+      {
+        "id": "4b5d1325-fb60-434a-b830-566bbc633836",
+        "kg": 74.84268,
+        "recordedAt": "2026-03-02T01:59:08.548+00:00",
+        "source": "onboarding",
+        "notes": "Starting weight from onboarding"
+      }
+    ]
+  }
+}
