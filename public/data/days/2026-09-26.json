@@ -3,14 +3,14 @@
   "date": "2026-09-26",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 715,
-    "protein": 36.2,
-    "carbs": 36.8,
-    "fat": 46,
-    "sugar": 5.6,
-    "fiber": 2.1,
-    "sodium": 1980,
-    "waterMl": 887
+    "calories": 1555,
+    "protein": 122.4,
+    "carbs": 103,
+    "fat": 71.2,
+    "sugar": 17.6,
+    "fiber": 10.1,
+    "sodium": 3400,
+    "waterMl": 1774
   },
   "goals": {
     "calories": 3493,
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 75,
       "isWater": false,
-      "updatedAt": "2026-09-26T21:48:17.487227+00:00",
+      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
       "nutrition": {
         "calories": 110,
         "protein": 6,
@@ -49,7 +49,7 @@
       "aiComment": null,
       "confidence": 92,
       "isWater": false,
-      "updatedAt": "2026-09-26T21:48:17.487227+00:00",
+      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
       "nutrition": {
         "calories": 240,
         "protein": 2,
@@ -68,7 +68,7 @@
       "aiComment": null,
       "confidence": 85,
       "isWater": false,
-      "updatedAt": "2026-09-26T21:48:17.487227+00:00",
+      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
       "nutrition": {
         "calories": 140,
         "protein": 10,
@@ -87,7 +87,7 @@
       "aiComment": null,
       "confidence": 90,
       "isWater": false,
-      "updatedAt": "2026-09-26T21:48:17.487227+00:00",
+      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
       "nutrition": {
         "calories": 210,
         "protein": 18,
@@ -106,7 +106,7 @@
       "aiComment": null,
       "confidence": 70,
       "isWater": false,
-      "updatedAt": "2026-09-26T21:48:17.487227+00:00",
+      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
       "nutrition": {
         "calories": 15,
         "protein": 0.2,
@@ -125,7 +125,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-09-26T21:48:17.487227+00:00",
+      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -135,6 +135,44 @@
         "fiber": 0,
         "sodium": 0,
         "waterMl": 887
+      }
+    },
+    {
+      "id": "a29a555e-68a4-4dea-b1b8-98ab1b2384ca",
+      "description": "30oz of water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 887
+      }
+    },
+    {
+      "id": "45567427-76fb-4bae-ae2c-cda08235e3ef",
+      "description": "Chicken orzo with spinach and tomato",
+      "detailedDescription": "2 servings of Sun Dried Tomato, Spinach - Chicken Orzo",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-09-27T02:23:46.824395+00:00",
+      "nutrition": {
+        "calories": 840,
+        "protein": 86.2,
+        "carbs": 66.2,
+        "fat": 25.2,
+        "sugar": 12,
+        "fiber": 8,
+        "sodium": 1420,
+        "waterMl": 0
       }
     }
   ]
