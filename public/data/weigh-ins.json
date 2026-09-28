@@ -16,6 +16,15 @@
         "source": "onboarding",
         "notes": "Starting weight from onboarding"
       }
+    ],
+    "2026-09-27": [
+      {
+        "id": "fff1d7d8-efc5-45a0-b44e-eb48cd3ea95a",
+        "kg": 74.84268,
+        "recordedAt": "2026-09-27T23:42:26.057+00:00",
+        "source": "manual",
+        "notes": "Afternoon weigh-in"
+      }
     ]
   }
 }
