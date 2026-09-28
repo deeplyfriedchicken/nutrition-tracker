@@ -3,13 +3,13 @@
   "date": "2026-09-27",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 1897,
-    "protein": 101.4,
-    "carbs": 190.7,
-    "fat": 84.4,
-    "sugar": 55.1,
-    "fiber": 18.6,
-    "sodium": 2279,
+    "calories": 3442,
+    "protein": 228,
+    "carbs": 314.7,
+    "fat": 143.1,
+    "sugar": 77.2,
+    "fiber": 24.3,
+    "sodium": 5229,
     "waterMl": 444
   },
   "goals": {
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 85,
       "isWater": false,
-      "updatedAt": "2026-09-27T23:50:00.613267+00:00",
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
       "nutrition": {
         "calories": 205,
         "protein": 4.3,
@@ -49,7 +49,7 @@
       "aiComment": null,
       "confidence": 92,
       "isWater": false,
-      "updatedAt": "2026-09-27T23:50:00.613267+00:00",
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
       "nutrition": {
         "calories": 200,
         "protein": 20,
@@ -68,7 +68,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-09-27T23:50:00.613267+00:00",
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -87,7 +87,7 @@
       "aiComment": null,
       "confidence": 85,
       "isWater": false,
-      "updatedAt": "2026-09-27T23:50:00.613267+00:00",
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
       "nutrition": {
         "calories": 284,
         "protein": 10.1,
@@ -106,7 +106,7 @@
       "aiComment": null,
       "confidence": 70,
       "isWater": false,
-      "updatedAt": "2026-09-27T23:50:00.613267+00:00",
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
       "nutrition": {
         "calories": 130,
         "protein": 1,
@@ -125,7 +125,7 @@
       "aiComment": null,
       "confidence": 70,
       "isWater": false,
-      "updatedAt": "2026-09-27T23:50:00.613267+00:00",
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
       "nutrition": {
         "calories": 390,
         "protein": 20,
@@ -144,7 +144,7 @@
       "aiComment": null,
       "confidence": 75,
       "isWater": false,
-      "updatedAt": "2026-09-27T23:50:00.613267+00:00",
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
       "nutrition": {
         "calories": 70,
         "protein": 6,
@@ -163,7 +163,7 @@
       "aiComment": null,
       "confidence": 65,
       "isWater": false,
-      "updatedAt": "2026-09-27T23:50:00.613267+00:00",
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
       "nutrition": {
         "calories": 618,
         "protein": 40,
@@ -172,6 +172,120 @@
         "sugar": 6,
         "fiber": 5,
         "sodium": 980,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "4b7ec60d-9b97-4899-bf8c-e3f8317d84f4",
+      "description": "15 pieces assorted sashimi",
+      "detailedDescription": "30-piece sashimi plate (half)",
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
+      "nutrition": {
+        "calories": 525,
+        "protein": 95,
+        "carbs": 0,
+        "fat": 15,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 375,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "33f18cfa-3203-4b87-ac6f-50360d6acd8d",
+      "description": "Alaska roll (6 pieces)",
+      "detailedDescription": "6 pieces Alaska roll (half)",
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
+      "nutrition": {
+        "calories": 270,
+        "protein": 11,
+        "carbs": 44,
+        "fat": 6,
+        "sugar": 6,
+        "fiber": 1.5,
+        "sodium": 840,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "1a80e85f-4fda-46e1-9caa-998a4d6c555b",
+      "description": "Negihama roll pieces",
+      "detailedDescription": "3 pieces of negihama roll",
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
+      "nutrition": {
+        "calories": 78,
+        "protein": 4.5,
+        "carbs": 12.5,
+        "fat": 1,
+        "sugar": 1.5,
+        "fiber": 0.5,
+        "sodium": 180,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "f2206089-7dd1-4323-ac04-54568c4d0434",
+      "description": "Miso soup",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
+      "nutrition": {
+        "calories": 84,
+        "protein": 6,
+        "carbs": 9,
+        "fat": 3,
+        "sugar": 3.5,
+        "fiber": 2.2,
+        "sodium": 1200,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "3a706afc-d2c2-4ca1-89f9-04ac00deff8f",
+      "description": "Biscoff cheesecake slice",
+      "detailedDescription": "Biscoff Cheesecake",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
+      "nutrition": {
+        "calories": 468,
+        "protein": 8.1,
+        "carbs": 35.5,
+        "fat": 31.2,
+        "sugar": 11.1,
+        "fiber": 1,
+        "sodium": 165.4,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "668714fc-460b-4326-9599-02cf34e44760",
+      "description": "Popcorners Sea Salt",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 90,
+      "isWater": false,
+      "updatedAt": "2026-09-28T06:43:25.472334+00:00",
+      "nutrition": {
+        "calories": 120,
+        "protein": 2,
+        "carbs": 23,
+        "fat": 2.5,
+        "sugar": 0,
+        "fiber": 0.5,
+        "sodium": 190,
         "waterMl": 0
       }
     }
