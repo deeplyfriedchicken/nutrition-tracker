@@ -3,13 +3,13 @@
   "date": "2026-09-28",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 200,
-    "protein": 20,
-    "carbs": 20,
-    "fat": 7,
-    "sugar": 1,
-    "fiber": 3,
-    "sodium": 75,
+    "calories": 590,
+    "protein": 39.9,
+    "carbs": 25.1,
+    "fat": 38.4,
+    "sugar": 2.5,
+    "fiber": 4,
+    "sodium": 521,
     "waterMl": 295
   },
   "goals": {
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 98,
       "isWater": false,
-      "updatedAt": "2026-09-28T17:24:50.901532+00:00",
+      "updatedAt": "2026-09-29T05:12:31.96224+00:00",
       "nutrition": {
         "calories": 200,
         "protein": 20,
@@ -49,7 +49,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-09-28T17:24:50.901532+00:00",
+      "updatedAt": "2026-09-29T05:12:31.96224+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -59,6 +59,25 @@
         "fiber": 0,
         "sodium": 0,
         "waterMl": 295
+      }
+    },
+    {
+      "id": "c2d73305-2c4c-4027-92cb-70185731ef1f",
+      "description": "Fried eggs with chili onion crunch",
+      "detailedDescription": "3 Fried eggs with crunchy chili onion",
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-09-29T05:12:31.96224+00:00",
+      "nutrition": {
+        "calories": 390,
+        "protein": 19.9,
+        "carbs": 5.1,
+        "fat": 31.4,
+        "sugar": 1.5,
+        "fiber": 1,
+        "sodium": 445.6,
+        "waterMl": 0
       }
     }
   ]
