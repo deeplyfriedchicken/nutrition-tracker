@@ -3,14 +3,14 @@
   "date": "2026-09-29",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 0,
-    "protein": 0,
-    "carbs": 0,
-    "fat": 0,
-    "sugar": 0,
-    "fiber": 0,
-    "sodium": 0,
-    "waterMl": 177
+    "calories": 986,
+    "protein": 60.8,
+    "carbs": 126.5,
+    "fat": 30.5,
+    "sugar": 41.3,
+    "fiber": 20.2,
+    "sodium": 1557,
+    "waterMl": 651
   },
   "goals": {
     "calories": 3493,
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-09-29T16:48:22.826257+00:00",
+      "updatedAt": "2026-09-29T21:32:58.41143+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -40,6 +40,139 @@
         "fiber": 0,
         "sodium": 0,
         "waterMl": 177
+      }
+    },
+    {
+      "id": "ddfb4cf7-f547-45fb-be6f-a85a537093f6",
+      "description": "Barebells Pumpkin Protein Bar",
+      "detailedDescription": "Barbell Pumpkin Protein Bar",
+      "aiComment": null,
+      "confidence": 95,
+      "isWater": false,
+      "updatedAt": "2026-09-29T21:32:58.41143+00:00",
+      "nutrition": {
+        "calories": 210,
+        "protein": 20,
+        "carbs": 20,
+        "fat": 7,
+        "sugar": 1,
+        "fiber": 3,
+        "sodium": 150,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "81942219-afef-4bfb-ba85-12b341917448",
+      "description": "Split pea soup with ham hocks",
+      "detailedDescription": "Split Pea Soup with Ham Hocks (1/2 serving)",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-09-29T21:32:58.41143+00:00",
+      "nutrition": {
+        "calories": 208,
+        "protein": 14.5,
+        "carbs": 26,
+        "fat": 5.5,
+        "sugar": 4,
+        "fiber": 8.5,
+        "sodium": 580,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "e1943edc-3a20-4868-ae06-4c4091796819",
+      "description": "Costco turkey bacon",
+      "detailedDescription": "2 spices of turkey bacon costco",
+      "aiComment": null,
+      "confidence": 90,
+      "isWater": false,
+      "updatedAt": "2026-09-29T21:32:58.41143+00:00",
+      "nutrition": {
+        "calories": 60,
+        "protein": 6,
+        "carbs": 0,
+        "fat": 4,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 320,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "b60fe370-b62c-4851-9c27-e1e78ed651fc",
+      "description": "Costco Super Smoothie with milk and OJ",
+      "detailedDescription": "Costco Super Smoothie packet with milk and orange juice",
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-09-29T21:32:58.41143+00:00",
+      "nutrition": {
+        "calories": 275,
+        "protein": 12,
+        "carbs": 49,
+        "fat": 5.7,
+        "sugar": 34,
+        "fiber": 7.2,
+        "sodium": 117,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "3f159c55-b8bb-46d7-9abe-95d9d05cabff",
+      "description": "8 oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-09-29T21:32:58.41143+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 237
+      }
+    },
+    {
+      "id": "b012c1cd-bea2-4b40-9f6c-b52a5d8230bf",
+      "description": "8oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-09-29T21:32:58.41143+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 237
+      }
+    },
+    {
+      "id": "6618c372-ea62-46d7-8666-0f1fc43aef86",
+      "description": "6 Trader Joe's shrimp potstickers",
+      "detailedDescription": "6 TJs Shrimp Potstickers",
+      "aiComment": null,
+      "confidence": 78,
+      "isWater": false,
+      "updatedAt": "2026-09-29T21:32:58.41143+00:00",
+      "nutrition": {
+        "calories": 233,
+        "protein": 8.3,
+        "carbs": 31.5,
+        "fat": 8.3,
+        "sugar": 2.3,
+        "fiber": 1.5,
+        "sodium": 390,
+        "waterMl": 0
       }
     }
   ]
