@@ -3,14 +3,14 @@
   "date": "2026-09-28",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 590,
-    "protein": 39.9,
-    "carbs": 25.1,
-    "fat": 38.4,
-    "sugar": 2.5,
-    "fiber": 4,
-    "sodium": 521,
-    "waterMl": 295
+    "calories": 2225,
+    "protein": 98.4,
+    "carbs": 264.8,
+    "fat": 87.2,
+    "sugar": 99,
+    "fiber": 12.1,
+    "sodium": 3865,
+    "waterMl": 739
   },
   "goals": {
     "calories": 3493,
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 98,
       "isWater": false,
-      "updatedAt": "2026-09-29T05:12:31.96224+00:00",
+      "updatedAt": "2026-09-29T15:32:42.982978+00:00",
       "nutrition": {
         "calories": 200,
         "protein": 20,
@@ -49,7 +49,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-09-29T05:12:31.96224+00:00",
+      "updatedAt": "2026-09-29T15:32:42.982978+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -68,7 +68,7 @@
       "aiComment": null,
       "confidence": 70,
       "isWater": false,
-      "updatedAt": "2026-09-29T05:12:31.96224+00:00",
+      "updatedAt": "2026-09-29T15:32:42.982978+00:00",
       "nutrition": {
         "calories": 390,
         "protein": 19.9,
@@ -78,6 +78,177 @@
         "fiber": 1,
         "sodium": 445.6,
         "waterMl": 0
+      }
+    },
+    {
+      "id": "9967d77a-a5e4-4589-8b3e-26abf15c8cf7",
+      "description": "2 TJs Hashbrowns",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-09-29T15:32:42.982978+00:00",
+      "nutrition": {
+        "calories": 240,
+        "protein": 2,
+        "carbs": 30,
+        "fat": 12,
+        "sugar": 0,
+        "fiber": 2,
+        "sodium": 500,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "f2b7fad3-9279-4fb9-953a-0cde48d65bcb",
+      "description": "Rice with furikake and soy sauce",
+      "detailedDescription": "1 cup of cooked rice with furikake and soy sauce",
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-09-29T15:32:42.982978+00:00",
+      "nutrition": {
+        "calories": 245,
+        "protein": 6.2,
+        "carbs": 48.8,
+        "fat": 1.9,
+        "sugar": 1.2,
+        "fiber": 1.1,
+        "sodium": 1059,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "42344825-b173-43f3-969e-1049826a3796",
+      "description": "Soft serve with chocolate shell",
+      "detailedDescription": "soft serve with chocolate hard shell",
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-09-29T15:32:42.982978+00:00",
+      "nutrition": {
+        "calories": 446,
+        "protein": 7,
+        "carbs": 54,
+        "fat": 24,
+        "sugar": 46,
+        "fiber": 1.5,
+        "sodium": 170,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "f985a170-34e1-4cf1-a025-13099055bed5",
+      "description": "Italian ice combo",
+      "detailedDescription": "Italian ice - tigers blood and black cherry",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-09-29T15:32:42.982978+00:00",
+      "nutrition": {
+        "calories": 210,
+        "protein": 0,
+        "carbs": 53,
+        "fat": 0,
+        "sugar": 45,
+        "fiber": 0,
+        "sodium": 24,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "c293baf3-259f-4790-8620-32a1dee8eff7",
+      "description": "2 small medley potatoes",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-09-29T15:32:42.982978+00:00",
+      "nutrition": {
+        "calories": 44,
+        "protein": 1.2,
+        "carbs": 10.4,
+        "fat": 0,
+        "sugar": 0.4,
+        "fiber": 0.8,
+        "sodium": 0,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "33344099-4931-40e2-8b4b-0d69eb051248",
+      "description": "Miso soup with tofu (6oz)",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-09-29T15:32:42.982978+00:00",
+      "nutrition": {
+        "calories": 63,
+        "protein": 3.8,
+        "carbs": 3.9,
+        "fat": 2.6,
+        "sugar": 0.4,
+        "fiber": 0.4,
+        "sodium": 669,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "2ef07fbd-44d2-48f8-b196-0760eb3e001c",
+      "description": "3 pieces of sashimi",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-09-29T15:32:42.982978+00:00",
+      "nutrition": {
+        "calories": 120,
+        "protein": 21,
+        "carbs": 0.3,
+        "fat": 3.6,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 135,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "9d9a85eb-485b-436b-b85a-cc8861875208",
+      "description": "Trader Joe's shrimp dumplings",
+      "detailedDescription": "8 tjs steamed dumplings - shrimp",
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-09-29T15:32:42.982978+00:00",
+      "nutrition": {
+        "calories": 267,
+        "protein": 17.3,
+        "carbs": 39.3,
+        "fat": 4.7,
+        "sugar": 3.5,
+        "fiber": 2.3,
+        "sodium": 787,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "ab7d6fc7-73b2-44e7-ba01-3fcdb9d40e86",
+      "description": "15 oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-09-29T15:32:42.982978+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 444
       }
     }
   ]

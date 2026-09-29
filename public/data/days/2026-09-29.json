@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-29",
+  "timezone": "America/Los_Angeles",
+  "totals": {
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "sodium": 0,
+    "waterMl": 177
+  },
+  "goals": {
+    "calories": 3493,
+    "protein": 140,
+    "carbs": 200,
+    "fat": 85,
+    "sugar": 25,
+    "fiber": 25,
+    "sodium": 2300,
+    "waterMl": 3000
+  },
+  "items": [
+    {
+      "id": "beaa110f-f5fa-43bc-9456-b1c7feb73976",
+      "description": "6 oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-09-29T16:48:22.826257+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 177
+      }
+    }
+  ]
+}
