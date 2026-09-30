@@ -70,14 +70,36 @@
     },
     "2026-09-29": {
       "totals": {
-        "calories": 986,
-        "protein": 60.8,
-        "carbs": 126.5,
-        "fat": 30.5,
-        "sugar": 41.3,
-        "fiber": 20.2,
-        "sodium": 1557,
-        "waterMl": 651
+        "calories": 4006,
+        "protein": 170.8,
+        "carbs": 418.5,
+        "fat": 189.5,
+        "sugar": 166.3,
+        "fiber": 31.2,
+        "sodium": 6137,
+        "waterMl": 1124
+      },
+      "goals": {
+        "calories": 3493,
+        "protein": 140,
+        "carbs": 200,
+        "fat": 85,
+        "sugar": 25,
+        "fiber": 25,
+        "sodium": 2300,
+        "waterMl": 3000
+      }
+    },
+    "2026-09-30": {
+      "totals": {
+        "calories": 1205,
+        "protein": 61,
+        "carbs": 140,
+        "fat": 46,
+        "sugar": 71,
+        "fiber": 19,
+        "sodium": 1480,
+        "waterMl": 0
       },
       "goals": {
         "calories": 3493,

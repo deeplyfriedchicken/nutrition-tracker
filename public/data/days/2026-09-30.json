@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-30",
+  "timezone": "America/Los_Angeles",
+  "totals": {
+    "calories": 1205,
+    "protein": 61,
+    "carbs": 140,
+    "fat": 46,
+    "sugar": 71,
+    "fiber": 19,
+    "sodium": 1480,
+    "waterMl": 0
+  },
+  "goals": {
+    "calories": 3493,
+    "protein": 140,
+    "carbs": 200,
+    "fat": 85,
+    "sugar": 25,
+    "fiber": 25,
+    "sodium": 2300,
+    "waterMl": 3000
+  },
+  "items": [
+    {
+      "id": "1a38bb44-180d-48cd-bb59-e1847f0c2127",
+      "description": "Once Upon a Farm Immunity Blend",
+      "detailedDescription": "Once upon a farm immunity drink - dragon fruit",
+      "aiComment": null,
+      "confidence": 98,
+      "isWater": false,
+      "updatedAt": "2026-09-30T21:35:36.236682+00:00",
+      "nutrition": {
+        "calories": 60,
+        "protein": 1,
+        "carbs": 16,
+        "fat": 0,
+        "sugar": 10,
+        "fiber": 2,
+        "sodium": 0,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "3d0c2307-56ea-4101-a021-42eaed4fc18c",
+      "description": "Clif Builder's Protein Bar",
+      "detailedDescription": "Mint Chocate Builder Protein Bar",
+      "aiComment": null,
+      "confidence": 98,
+      "isWater": false,
+      "updatedAt": "2026-09-30T21:35:36.236682+00:00",
+      "nutrition": {
+        "calories": 280,
+        "protein": 20,
+        "carbs": 31,
+        "fat": 9,
+        "sugar": 17,
+        "fiber": 3,
+        "sodium": 200,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "7034422b-830c-4970-abf7-8af23aed3a7e",
+      "description": "Konjac jelly drink",
+      "detailedDescription": "Konjac Drink",
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-09-30T21:35:36.236682+00:00",
+      "nutrition": {
+        "calories": 45,
+        "protein": 0,
+        "carbs": 11,
+        "fat": 0,
+        "sugar": 7,
+        "fiber": 5,
+        "sodium": 50,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "560549f7-3f52-4163-8959-da2a6a97b133",
+      "description": "Nature's Bakery Fig Bar",
+      "detailedDescription": "natures bakery fig bar raspberry",
+      "aiComment": null,
+      "confidence": 92,
+      "isWater": false,
+      "updatedAt": "2026-09-30T21:35:36.236682+00:00",
+      "nutrition": {
+        "calories": 200,
+        "protein": 2,
+        "carbs": 38,
+        "fat": 5,
+        "sugar": 19,
+        "fiber": 2,
+        "sodium": 80,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "cc798729-a3bf-4a2d-8ce9-5de28f4c9d61",
+      "description": "The Toss Crispy Noodle Salad",
+      "detailedDescription": "The Toss - Crispy Noodle with Chicken",
+      "aiComment": null,
+      "confidence": 72,
+      "isWater": false,
+      "updatedAt": "2026-09-30T21:35:36.236682+00:00",
+      "nutrition": {
+        "calories": 620,
+        "protein": 38,
+        "carbs": 44,
+        "fat": 32,
+        "sugar": 18,
+        "fiber": 7,
+        "sodium": 1150,
+        "waterMl": 0
+      }
+    }
+  ]
+}
