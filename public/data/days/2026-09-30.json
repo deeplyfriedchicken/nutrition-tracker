@@ -3,14 +3,14 @@
   "date": "2026-09-30",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 1205,
-    "protein": 61,
-    "carbs": 140,
-    "fat": 46,
-    "sugar": 71,
-    "fiber": 19,
-    "sodium": 1480,
-    "waterMl": 0
+    "calories": 1565,
+    "protein": 93,
+    "carbs": 151,
+    "fat": 67,
+    "sugar": 77,
+    "fiber": 22,
+    "sodium": 2365,
+    "waterMl": 887
   },
   "goals": {
     "calories": 3493,
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 98,
       "isWater": false,
-      "updatedAt": "2026-09-30T21:35:36.236682+00:00",
+      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
       "nutrition": {
         "calories": 60,
         "protein": 1,
@@ -49,7 +49,7 @@
       "aiComment": null,
       "confidence": 98,
       "isWater": false,
-      "updatedAt": "2026-09-30T21:35:36.236682+00:00",
+      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
       "nutrition": {
         "calories": 280,
         "protein": 20,
@@ -68,7 +68,7 @@
       "aiComment": null,
       "confidence": 75,
       "isWater": false,
-      "updatedAt": "2026-09-30T21:35:36.236682+00:00",
+      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
       "nutrition": {
         "calories": 45,
         "protein": 0,
@@ -87,7 +87,7 @@
       "aiComment": null,
       "confidence": 92,
       "isWater": false,
-      "updatedAt": "2026-09-30T21:35:36.236682+00:00",
+      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
       "nutrition": {
         "calories": 200,
         "protein": 2,
@@ -106,7 +106,7 @@
       "aiComment": null,
       "confidence": 72,
       "isWater": false,
-      "updatedAt": "2026-09-30T21:35:36.236682+00:00",
+      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
       "nutrition": {
         "calories": 620,
         "protein": 38,
@@ -115,6 +115,82 @@
         "sugar": 18,
         "fiber": 7,
         "sodium": 1150,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "59fd2188-c6e3-4498-86c0-6e0d8f2783bf",
+      "description": "20 oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 591
+      }
+    },
+    {
+      "id": "a10813db-3cfe-44ec-b306-e563aba34df3",
+      "description": "10 oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 296
+      }
+    },
+    {
+      "id": "7ebb7750-df1f-483c-9bbf-e9135fc504da",
+      "description": "Oikos Triple Zero Yogurt - Mixed Berry",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 95,
+      "isWater": false,
+      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "nutrition": {
+        "calories": 100,
+        "protein": 15,
+        "carbs": 10,
+        "fat": 0,
+        "sugar": 5,
+        "fiber": 3,
+        "sodium": 65,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "fb7c7678-0fb6-4c22-aa2d-f9252dc3ad10",
+      "description": "BelGioioso cheese and salame pack",
+      "detailedDescription": "Belgioioso Provolone Cheese & Genoa Salame",
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "nutrition": {
+        "calories": 260,
+        "protein": 17,
+        "carbs": 1,
+        "fat": 21,
+        "sugar": 1,
+        "fiber": 0,
+        "sodium": 820,
         "waterMl": 0
       }
     }
