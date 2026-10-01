@@ -3,13 +3,13 @@
   "date": "2026-09-30",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 1565,
-    "protein": 93,
-    "carbs": 151,
-    "fat": 67,
-    "sugar": 77,
-    "fiber": 22,
-    "sodium": 2365,
+    "calories": 1773,
+    "protein": 97,
+    "carbs": 179.1,
+    "fat": 75,
+    "sugar": 92,
+    "fiber": 23.1,
+    "sodium": 2603,
     "waterMl": 887
   },
   "goals": {
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 98,
       "isWater": false,
-      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "updatedAt": "2026-10-01T02:18:01.992444+00:00",
       "nutrition": {
         "calories": 60,
         "protein": 1,
@@ -49,7 +49,7 @@
       "aiComment": null,
       "confidence": 98,
       "isWater": false,
-      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "updatedAt": "2026-10-01T02:18:01.992444+00:00",
       "nutrition": {
         "calories": 280,
         "protein": 20,
@@ -68,7 +68,7 @@
       "aiComment": null,
       "confidence": 75,
       "isWater": false,
-      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "updatedAt": "2026-10-01T02:18:01.992444+00:00",
       "nutrition": {
         "calories": 45,
         "protein": 0,
@@ -87,7 +87,7 @@
       "aiComment": null,
       "confidence": 92,
       "isWater": false,
-      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "updatedAt": "2026-10-01T02:18:01.992444+00:00",
       "nutrition": {
         "calories": 200,
         "protein": 2,
@@ -106,7 +106,7 @@
       "aiComment": null,
       "confidence": 72,
       "isWater": false,
-      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "updatedAt": "2026-10-01T02:18:01.992444+00:00",
       "nutrition": {
         "calories": 620,
         "protein": 38,
@@ -125,7 +125,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "updatedAt": "2026-10-01T02:18:01.992444+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -144,7 +144,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "updatedAt": "2026-10-01T02:18:01.992444+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -163,7 +163,7 @@
       "aiComment": null,
       "confidence": 95,
       "isWater": false,
-      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "updatedAt": "2026-10-01T02:18:01.992444+00:00",
       "nutrition": {
         "calories": 100,
         "protein": 15,
@@ -182,7 +182,7 @@
       "aiComment": null,
       "confidence": 75,
       "isWater": false,
-      "updatedAt": "2026-09-30T23:06:33.678788+00:00",
+      "updatedAt": "2026-10-01T02:18:01.992444+00:00",
       "nutrition": {
         "calories": 260,
         "protein": 17,
@@ -191,6 +191,25 @@
         "sugar": 1,
         "fiber": 0,
         "sodium": 820,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "45f5667e-66aa-44ef-aa10-58d4c8392229",
+      "description": "Half red bean mooncake",
+      "detailedDescription": "Mooncake with beans but a lil dry (1/2)",
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-10-01T02:18:01.992444+00:00",
+      "nutrition": {
+        "calories": 208,
+        "protein": 4,
+        "carbs": 28.1,
+        "fat": 8,
+        "sugar": 15,
+        "fiber": 1.1,
+        "sodium": 238,
         "waterMl": 0
       }
     }
