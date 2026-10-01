@@ -114,14 +114,14 @@
     },
     "2026-10-01": {
       "totals": {
-        "calories": 220,
-        "protein": 15,
-        "carbs": 7,
-        "fat": 16,
-        "sugar": 2,
-        "fiber": 1,
-        "sodium": 420,
-        "waterMl": 0
+        "calories": 1675,
+        "protein": 80.5,
+        "carbs": 172,
+        "fat": 74.5,
+        "sugar": 30,
+        "fiber": 9,
+        "sodium": 2310,
+        "waterMl": 887
       },
       "goals": {
         "calories": 3493,

@@ -3,14 +3,14 @@
   "date": "2026-10-01",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 220,
-    "protein": 15,
-    "carbs": 7,
-    "fat": 16,
-    "sugar": 2,
-    "fiber": 1,
-    "sodium": 420,
-    "waterMl": 0
+    "calories": 1675,
+    "protein": 80.5,
+    "carbs": 172,
+    "fat": 74.5,
+    "sugar": 30,
+    "fiber": 9,
+    "sodium": 2310,
+    "waterMl": 887
   },
   "goals": {
     "calories": 3493,
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 70,
       "isWater": false,
-      "updatedAt": "2026-10-01T16:57:55.363344+00:00",
+      "updatedAt": "2026-10-01T23:21:56.083936+00:00",
       "nutrition": {
         "calories": 220,
         "protein": 15,
@@ -39,6 +39,82 @@
         "sugar": 2,
         "fiber": 1,
         "sodium": 420,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "ed4dd38a-5130-4cb9-ab43-6157272cb561",
+      "description": "20 oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-10-01T23:21:56.083936+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 591
+      }
+    },
+    {
+      "id": "908178ce-a194-44ba-8eee-acd8449c2e91",
+      "description": "Darbar Butter Chicken meal",
+      "detailedDescription": "Darbar Butter Chicken and Naan and yellow rice",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-10-01T23:21:56.083936+00:00",
+      "nutrition": {
+        "calories": 1165,
+        "protein": 45.5,
+        "carbs": 136,
+        "fat": 47.5,
+        "sugar": 11,
+        "fiber": 5,
+        "sodium": 1690,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "c9c30d36-7034-499c-8f09-4f08f7b7fe08",
+      "description": "10 oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-10-01T23:21:56.083936+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 296
+      }
+    },
+    {
+      "id": "7afd437f-b357-441a-9386-60a05cddf23b",
+      "description": "Clif Builders Protein Bar",
+      "detailedDescription": "Builders mint chocolate protein bar",
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-10-01T23:21:56.083936+00:00",
+      "nutrition": {
+        "calories": 290,
+        "protein": 20,
+        "carbs": 29,
+        "fat": 11,
+        "sugar": 17,
+        "fiber": 3,
+        "sodium": 200,
         "waterMl": 0
       }
     }
