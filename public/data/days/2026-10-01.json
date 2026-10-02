@@ -3,14 +3,14 @@
   "date": "2026-10-01",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 1675,
-    "protein": 80.5,
-    "carbs": 172,
-    "fat": 74.5,
-    "sugar": 30,
-    "fiber": 9,
-    "sodium": 2310,
-    "waterMl": 887
+    "calories": 2315,
+    "protein": 110.5,
+    "carbs": 203,
+    "fat": 118.5,
+    "sugar": 38,
+    "fiber": 11,
+    "sodium": 3360,
+    "waterMl": 1774
   },
   "goals": {
     "calories": 3493,
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 70,
       "isWater": false,
-      "updatedAt": "2026-10-02T07:01:17.015702+00:00",
+      "updatedAt": "2026-10-02T18:36:15.318185+00:00",
       "nutrition": {
         "calories": 220,
         "protein": 15,
@@ -49,7 +49,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-10-02T07:01:17.015702+00:00",
+      "updatedAt": "2026-10-02T18:36:15.318185+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -68,7 +68,7 @@
       "aiComment": null,
       "confidence": 65,
       "isWater": false,
-      "updatedAt": "2026-10-02T07:01:17.015702+00:00",
+      "updatedAt": "2026-10-02T18:36:15.318185+00:00",
       "nutrition": {
         "calories": 1165,
         "protein": 45.5,
@@ -87,7 +87,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-10-02T07:01:17.015702+00:00",
+      "updatedAt": "2026-10-02T18:36:15.318185+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -106,7 +106,7 @@
       "aiComment": null,
       "confidence": 70,
       "isWater": false,
-      "updatedAt": "2026-10-02T07:01:17.015702+00:00",
+      "updatedAt": "2026-10-02T18:36:15.318185+00:00",
       "nutrition": {
         "calories": 290,
         "protein": 20,
@@ -116,6 +116,63 @@
         "fiber": 3,
         "sodium": 200,
         "waterMl": 0
+      }
+    },
+    {
+      "id": "87332043-1c68-4db1-b4ad-369a5035979c",
+      "description": "Five Guys Patty Melt",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-10-02T18:36:15.318185+00:00",
+      "nutrition": {
+        "calories": 640,
+        "protein": 30,
+        "carbs": 31,
+        "fat": 44,
+        "sugar": 8,
+        "fiber": 2,
+        "sodium": 1050,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "9fb69457-8aa3-4d19-b76e-365f24af0c1d",
+      "description": "20 oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-10-02T18:36:15.318185+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 591
+      }
+    },
+    {
+      "id": "602d8e11-a4f6-40f4-9dc5-ba95a0d4a60d",
+      "description": "10 oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-10-02T18:36:15.318185+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 296
       }
     }
   ]
