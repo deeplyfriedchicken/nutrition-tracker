@@ -133,6 +133,28 @@
         "sodium": 2300,
         "waterMl": 3000
       }
+    },
+    "2026-10-02": {
+      "totals": {
+        "calories": 1017,
+        "protein": 28.4,
+        "carbs": 169,
+        "fat": 30.7,
+        "sugar": 71,
+        "fiber": 5.5,
+        "sodium": 1696,
+        "waterMl": 887
+      },
+      "goals": {
+        "calories": 3493,
+        "protein": 140,
+        "carbs": 200,
+        "fat": 85,
+        "sugar": 25,
+        "fiber": 25,
+        "sodium": 2300,
+        "waterMl": 3000
+      }
     }
   }
 }

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-02",
+  "timezone": "America/Los_Angeles",
+  "totals": {
+    "calories": 1017,
+    "protein": 28.4,
+    "carbs": 169,
+    "fat": 30.7,
+    "sugar": 71,
+    "fiber": 5.5,
+    "sodium": 1696,
+    "waterMl": 887
+  },
+  "goals": {
+    "calories": 3493,
+    "protein": 140,
+    "carbs": 200,
+    "fat": 85,
+    "sugar": 25,
+    "fiber": 25,
+    "sodium": 2300,
+    "waterMl": 3000
+  },
+  "items": [
+    {
+      "id": "4f8f3c92-8705-4419-a970-6fa943084245",
+      "description": "Costco smoothie with juice and milk",
+      "detailedDescription": "Costco Super Smoothie + 1/2 cup of orange juice + 1/2 cup of milk",
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-10-02T21:53:45.444506+00:00",
+      "nutrition": {
+        "calories": 361,
+        "protein": 4.9,
+        "carbs": 91,
+        "fat": 4.2,
+        "sugar": 66.5,
+        "fiber": 0.2,
+        "sodium": 96,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "7e573d2a-3206-4c26-877a-6d9e8aab7215",
+      "description": "busseto Salami Snack",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-10-02T21:53:45.444506+00:00",
+      "nutrition": {
+        "calories": 110,
+        "protein": 6,
+        "carbs": 1,
+        "fat": 9,
+        "sugar": 1,
+        "fiber": 0,
+        "sodium": 480,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "215cfbe9-cdf0-4766-aa00-7a480e0942d1",
+      "description": "10oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-10-02T21:53:45.444506+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 296
+      }
+    },
+    {
+      "id": "7c0cc9cb-310c-4008-be7f-15b07737f261",
+      "description": "Gnocchi cacio e pepe",
+      "detailedDescription": "gnocchi with cacio e pepe sauce",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-10-02T21:53:45.444506+00:00",
+      "nutrition": {
+        "calories": 546,
+        "protein": 17.5,
+        "carbs": 77,
+        "fat": 17.5,
+        "sugar": 3.5,
+        "fiber": 5.3,
+        "sodium": 1120,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "500a84aa-3e8a-436c-ad29-7d4e824718b5",
+      "description": "20oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-10-02T21:53:45.444506+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 591
+      }
+    }
+  ]
+}
