@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-03",
+  "timezone": "America/Los_Angeles",
+  "totals": {
+    "calories": 1360,
+    "protein": 48,
+    "carbs": 187,
+    "fat": 51,
+    "sugar": 139,
+    "fiber": 5,
+    "sodium": 820,
+    "waterMl": 591
+  },
+  "goals": {
+    "calories": 3493,
+    "protein": 140,
+    "carbs": 200,
+    "fat": 85,
+    "sugar": 25,
+    "fiber": 25,
+    "sodium": 2300,
+    "waterMl": 3000
+  },
+  "items": [
+    {
+      "id": "54cd9490-bd8b-41d5-aabe-6b2ca8a0ed76",
+      "description": "Large Jamba Peanut Butter Moo'd with whey",
+      "detailedDescription": "Jamba Juice Peanut Butter Moo'd + Whey Protein Add-on - Large",
+      "aiComment": null,
+      "confidence": 92,
+      "isWater": false,
+      "updatedAt": "2026-10-03T19:25:14.984109+00:00",
+      "nutrition": {
+        "calories": 950,
+        "protein": 39,
+        "carbs": 145,
+        "fat": 28,
+        "sugar": 119,
+        "fiber": 3,
+        "sodium": 455,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "8aef6e35-7578-41d3-8de5-3b64d9eedf57",
+      "description": "Jamba Juice waffle with peanut butter",
+      "detailedDescription": "Jamba Juice Belgian Waffle + Side of Peanuy Butter",
+      "aiComment": null,
+      "confidence": 78,
+      "isWater": false,
+      "updatedAt": "2026-10-03T19:25:14.984109+00:00",
+      "nutrition": {
+        "calories": 410,
+        "protein": 9,
+        "carbs": 42,
+        "fat": 23,
+        "sugar": 20,
+        "fiber": 2,
+        "sodium": 365,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "a1eedff0-a28e-4bfc-ac32-445925a5db5c",
+      "description": "20oz Water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-10-03T19:25:14.984109+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 591
+      }
+    }
+  ]
+}
