@@ -3,14 +3,14 @@
   "date": "2026-10-02",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 1017,
-    "protein": 28.4,
-    "carbs": 169,
-    "fat": 30.7,
-    "sugar": 71,
-    "fiber": 5.5,
-    "sodium": 1696,
-    "waterMl": 887
+    "calories": 2642,
+    "protein": 92.7,
+    "carbs": 343.6,
+    "fat": 105.2,
+    "sugar": 157,
+    "fiber": 23.1,
+    "sodium": 5534,
+    "waterMl": 1478
   },
   "goals": {
     "calories": 3493,
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 70,
       "isWater": false,
-      "updatedAt": "2026-10-02T21:53:45.444506+00:00",
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
       "nutrition": {
         "calories": 361,
         "protein": 4.9,
@@ -49,7 +49,7 @@
       "aiComment": null,
       "confidence": 75,
       "isWater": false,
-      "updatedAt": "2026-10-02T21:53:45.444506+00:00",
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
       "nutrition": {
         "calories": 110,
         "protein": 6,
@@ -68,7 +68,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-10-02T21:53:45.444506+00:00",
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -87,7 +87,7 @@
       "aiComment": null,
       "confidence": 65,
       "isWater": false,
-      "updatedAt": "2026-10-02T21:53:45.444506+00:00",
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
       "nutrition": {
         "calories": 546,
         "protein": 17.5,
@@ -106,7 +106,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-10-02T21:53:45.444506+00:00",
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -116,6 +116,158 @@
         "fiber": 0,
         "sodium": 0,
         "waterMl": 591
+      }
+    },
+    {
+      "id": "4bd3b435-155d-41d0-ac50-5f121ec813a1",
+      "description": "Zareen's Palak Paneer",
+      "detailedDescription": "Zareens Palak Paneer 6oz",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
+      "nutrition": {
+        "calories": 277,
+        "protein": 11.9,
+        "carbs": 15.3,
+        "fat": 18.7,
+        "sugar": 0,
+        "fiber": 3.4,
+        "sodium": 1938,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "d5b84275-260c-4d18-b7ef-928a48348164",
+      "description": "Zareen's Chicken Tikka",
+      "detailedDescription": "Zareens Chicken Tikka 8oz",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
+      "nutrition": {
+        "calories": 360,
+        "protein": 24,
+        "carbs": 12,
+        "fat": 24,
+        "sugar": 6,
+        "fiber": 2,
+        "sodium": 780,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "afef7ad1-26a0-4092-a56c-b9f3b763c48d",
+      "description": "Zareen's Paratha",
+      "detailedDescription": "Zareens Paratha",
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
+      "nutrition": {
+        "calories": 310,
+        "protein": 6,
+        "carbs": 43,
+        "fat": 13,
+        "sugar": 4,
+        "fiber": 9,
+        "sodium": 430,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "3254a408-c19b-4cef-887a-1951f380bb66",
+      "description": "Zareen's Chicken Boti Sizzler",
+      "detailedDescription": "Zareens 1/4 Chicken Boti Sizzer",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
+      "nutrition": {
+        "calories": 145,
+        "protein": 18,
+        "carbs": 2.5,
+        "fat": 7,
+        "sugar": 0.5,
+        "fiber": 0.8,
+        "sodium": 420,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "5bff4e68-47f3-4b74-b0d9-a4ed75ec3b35",
+      "description": "Zareen's Garlic Naan (1/8)",
+      "detailedDescription": "Zareens Garlic Naan 1/ 8",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
+      "nutrition": {
+        "calories": 48,
+        "protein": 1.4,
+        "carbs": 8.8,
+        "fat": 0.8,
+        "sugar": 0.5,
+        "fiber": 0.4,
+        "sodium": 65,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "fc3bfbeb-3b67-46b2-ab68-0a3db986590f",
+      "description": "20 oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 591
+      }
+    },
+    {
+      "id": "269843cd-fa70-4802-8ea7-ab6c8a48b375",
+      "description": "Arizona Green Tea Bottle",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
+      "nutrition": {
+        "calories": 175,
+        "protein": 0,
+        "carbs": 43,
+        "fat": 0,
+        "sugar": 43,
+        "fiber": 0,
+        "sodium": 25,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "b9cf5a62-9d30-4b95-ad78-8a08e35ae212",
+      "description": "Two s'mores",
+      "detailedDescription": "2 s'mores",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-10-03T08:26:21.750795+00:00",
+      "nutrition": {
+        "calories": 310,
+        "protein": 3,
+        "carbs": 50,
+        "fat": 11,
+        "sugar": 32,
+        "fiber": 2,
+        "sodium": 180,
+        "waterMl": 0
       }
     }
   ]
