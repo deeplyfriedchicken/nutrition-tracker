@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "timezone": "America/Los_Angeles",
+  "totals": {
+    "calories": 339,
+    "protein": 19.6,
+    "carbs": 9.7,
+    "fat": 24,
+    "sugar": 2.4,
+    "fiber": 0.5,
+    "sodium": 742,
+    "waterMl": 0
+  },
+  "goals": {
+    "calories": 3493,
+    "protein": 140,
+    "carbs": 200,
+    "fat": 85,
+    "sugar": 25,
+    "fiber": 25,
+    "sodium": 2300,
+    "waterMl": 3000
+  },
+  "items": [
+    {
+      "id": "1a5d2590-9c8c-4a25-95c3-af6586206166",
+      "description": "Eggs with crunchy onions",
+      "detailedDescription": "2 cooked eggs with crunchy onion",
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-10-05T16:47:23.098124+00:00",
+      "nutrition": {
+        "calories": 234,
+        "protein": 13.6,
+        "carbs": 8.8,
+        "fat": 15.6,
+        "sugar": 1.8,
+        "fiber": 0.5,
+        "sodium": 262,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "9b4fdbd4-69d5-4f83-ae6b-3e0ef22d02e1",
+      "description": "3 turkey bacon slices",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 78,
+      "isWater": false,
+      "updatedAt": "2026-10-05T16:47:23.098124+00:00",
+      "nutrition": {
+        "calories": 105,
+        "protein": 6,
+        "carbs": 0.9,
+        "fat": 8.4,
+        "sugar": 0.6,
+        "fiber": 0,
+        "sodium": 480,
+        "waterMl": 0
+      }
+    }
+  ]
+}

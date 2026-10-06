@@ -177,6 +177,50 @@
         "sodium": 2300,
         "waterMl": 3000
       }
+    },
+    "2026-10-04": {
+      "totals": {
+        "calories": 339,
+        "protein": 19.6,
+        "carbs": 9.7,
+        "fat": 24,
+        "sugar": 2.4,
+        "fiber": 0.5,
+        "sodium": 742,
+        "waterMl": 0
+      },
+      "goals": {
+        "calories": 3493,
+        "protein": 140,
+        "carbs": 200,
+        "fat": 85,
+        "sugar": 25,
+        "fiber": 25,
+        "sodium": 2300,
+        "waterMl": 3000
+      }
+    },
+    "2026-10-05": {
+      "totals": {
+        "calories": 1505,
+        "protein": 94.2,
+        "carbs": 115.6,
+        "fat": 78.5,
+        "sugar": 32,
+        "fiber": 24.2,
+        "sodium": 3015,
+        "waterMl": 887
+      },
+      "goals": {
+        "calories": 3493,
+        "protein": 140,
+        "carbs": 200,
+        "fat": 85,
+        "sugar": 25,
+        "fiber": 25,
+        "sodium": 2300,
+        "waterMl": 3000
+      }
     }
   }
 }

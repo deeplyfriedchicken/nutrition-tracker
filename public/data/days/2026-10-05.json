@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-05",
+  "timezone": "America/Los_Angeles",
+  "totals": {
+    "calories": 1505,
+    "protein": 94.2,
+    "carbs": 115.6,
+    "fat": 78.5,
+    "sugar": 32,
+    "fiber": 24.2,
+    "sodium": 3015,
+    "waterMl": 887
+  },
+  "goals": {
+    "calories": 3493,
+    "protein": 140,
+    "carbs": 200,
+    "fat": 85,
+    "sugar": 25,
+    "fiber": 25,
+    "sodium": 2300,
+    "waterMl": 3000
+  },
+  "items": [
+    {
+      "id": "bf8cb071-bf51-4c44-a8ce-55c940764fed",
+      "description": "Three bridges egg bites",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "nutrition": {
+        "calories": 220,
+        "protein": 15,
+        "carbs": 7,
+        "fat": 16,
+        "sugar": 2,
+        "fiber": 1,
+        "sodium": 420,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "1ae8f219-11b4-4609-a252-bfa278bd051f",
+      "description": "oikos triple zero yogurt",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 98,
+      "isWater": false,
+      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "nutrition": {
+        "calories": 90,
+        "protein": 15,
+        "carbs": 6,
+        "fat": 0,
+        "sugar": 5,
+        "fiber": 0,
+        "sodium": 55,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "d1e9e374-529c-44ee-af0a-0dba7611d172",
+      "description": "chobani 20g protein drink",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 90,
+      "isWater": false,
+      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "nutrition": {
+        "calories": 170,
+        "protein": 20,
+        "carbs": 17,
+        "fat": 2.5,
+        "sugar": 11,
+        "fiber": 3,
+        "sodium": 140,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "f7d0a85e-cd3d-4880-913f-3028e019a5bf",
+      "description": "Pasha Mediterranean salmon",
+      "detailedDescription": "Pasha mediterranean a la carte salmon",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "nutrition": {
+        "calories": 350,
+        "protein": 22,
+        "carbs": 33,
+        "fat": 16,
+        "sugar": 12,
+        "fiber": 7,
+        "sodium": 1120,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "274da736-15d8-48f8-b69a-73d7fe7432cd",
+      "description": "Pasha Mediterranean falafel",
+      "detailedDescription": "pasha mediterranean falafel (4 pieces)",
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "nutrition": {
+        "calories": 240,
+        "protein": 8,
+        "carbs": 24,
+        "fat": 14,
+        "sugar": 2,
+        "fiber": 6,
+        "sodium": 480,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "5af413ac-a7dc-482a-a5b1-a110fdef279c",
+      "description": "pasha mediterranean hummus side",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 65,
+      "isWater": false,
+      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "nutrition": {
+        "calories": 435,
+        "protein": 14.2,
+        "carbs": 28.6,
+        "fat": 30,
+        "sugar": 0,
+        "fiber": 7.2,
+        "sodium": 800,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "aaf23887-179a-4c8e-828f-a2d537d366b3",
+      "description": "30 fl oz",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 887
+      }
+    }
+  ]
+}
