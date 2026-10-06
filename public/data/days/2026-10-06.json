@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-06",
+  "timezone": "America/Los_Angeles",
+  "totals": {
+    "calories": 871,
+    "protein": 40,
+    "carbs": 145,
+    "fat": 12.2,
+    "sugar": 54,
+    "fiber": 9.7,
+    "sodium": 736,
+    "waterMl": 444
+  },
+  "goals": {
+    "calories": 3493,
+    "protein": 140,
+    "carbs": 200,
+    "fat": 85,
+    "sugar": 25,
+    "fiber": 25,
+    "sodium": 2300,
+    "waterMl": 3000
+  },
+  "items": [
+    {
+      "id": "1bc24ab7-073e-4549-981f-338ee4f440d9",
+      "description": "15 oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-10-06T21:18:23.960244+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 444
+      }
+    },
+    {
+      "id": "3e1ab9eb-0699-4545-9f90-7ccf677a7f95",
+      "description": "Slice of sourdough bread with butter",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 85,
+      "isWater": false,
+      "updatedAt": "2026-10-06T21:18:23.960244+00:00",
+      "nutrition": {
+        "calories": 136,
+        "protein": 3.5,
+        "carbs": 20,
+        "fat": 4.6,
+        "sugar": 1,
+        "fiber": 1,
+        "sodium": 251,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "cb1359fc-40ed-476c-bdf2-204507af3e0e",
+      "description": "Safeway ReadyMeals Yogurt Parfait",
+      "detailedDescription": "Safeway readymeals yogurt parfait strawberry with strawberry and blueberry 12oz",
+      "aiComment": null,
+      "confidence": 78,
+      "isWater": false,
+      "updatedAt": "2026-10-06T21:18:23.960244+00:00",
+      "nutrition": {
+        "calories": 430,
+        "protein": 10,
+        "carbs": 80,
+        "fat": 6,
+        "sugar": 50,
+        "fiber": 4,
+        "sodium": 200,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "f8156c86-9d45-4d70-a452-2b2496cc50b6",
+      "description": "Buckwheat udon with shrimp and carrots",
+      "detailedDescription": "TJs Buckwheat udon noodles + shrimp + carrots",
+      "aiComment": null,
+      "confidence": 70,
+      "isWater": false,
+      "updatedAt": "2026-10-06T21:18:23.960244+00:00",
+      "nutrition": {
+        "calories": 305,
+        "protein": 26.5,
+        "carbs": 45,
+        "fat": 1.6,
+        "sugar": 3,
+        "fiber": 4.7,
+        "sodium": 285,
+        "waterMl": 0
+      }
+    }
+  ]
+}
