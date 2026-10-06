@@ -3,13 +3,13 @@
   "date": "2026-10-05",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 1505,
-    "protein": 94.2,
-    "carbs": 115.6,
-    "fat": 78.5,
-    "sugar": 32,
-    "fiber": 24.2,
-    "sodium": 3015,
+    "calories": 2333,
+    "protein": 148.8,
+    "carbs": 212,
+    "fat": 103.2,
+    "sugar": 53.6,
+    "fiber": 28.5,
+    "sodium": 3110,
     "waterMl": 887
   },
   "goals": {
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 70,
       "isWater": false,
-      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "updatedAt": "2026-10-06T04:38:55.095312+00:00",
       "nutrition": {
         "calories": 220,
         "protein": 15,
@@ -49,7 +49,7 @@
       "aiComment": null,
       "confidence": 98,
       "isWater": false,
-      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "updatedAt": "2026-10-06T04:38:55.095312+00:00",
       "nutrition": {
         "calories": 90,
         "protein": 15,
@@ -68,7 +68,7 @@
       "aiComment": null,
       "confidence": 90,
       "isWater": false,
-      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "updatedAt": "2026-10-06T04:38:55.095312+00:00",
       "nutrition": {
         "calories": 170,
         "protein": 20,
@@ -87,7 +87,7 @@
       "aiComment": null,
       "confidence": 65,
       "isWater": false,
-      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "updatedAt": "2026-10-06T04:38:55.095312+00:00",
       "nutrition": {
         "calories": 350,
         "protein": 22,
@@ -106,7 +106,7 @@
       "aiComment": null,
       "confidence": 65,
       "isWater": false,
-      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "updatedAt": "2026-10-06T04:38:55.095312+00:00",
       "nutrition": {
         "calories": 240,
         "protein": 8,
@@ -120,20 +120,39 @@
     },
     {
       "id": "5af413ac-a7dc-482a-a5b1-a110fdef279c",
-      "description": "pasha mediterranean hummus side",
-      "detailedDescription": null,
+      "description": "Pasha Hummus side",
+      "detailedDescription": "Pasha Mediterranean Hummus (0.75 cup) Visible entry after edit: pasha mediterranean hummus side -1/4.",
       "aiComment": null,
-      "confidence": 65,
+      "confidence": 70,
       "isWater": false,
-      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "updatedAt": "2026-10-06T04:38:55.095312+00:00",
       "nutrition": {
-        "calories": 435,
-        "protein": 14.2,
-        "carbs": 28.6,
-        "fat": 30,
+        "calories": 326,
+        "protein": 11,
+        "carbs": 21,
+        "fat": 23,
         "sugar": 0,
-        "fiber": 7.2,
-        "sodium": 800,
+        "fiber": 5,
+        "sodium": 600,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "9f515cd6-da0d-42aa-bd99-a8e33851849e",
+      "description": "Clif Builder's Mint Protein Bar",
+      "detailedDescription": "Mint builders protein bar",
+      "aiComment": null,
+      "confidence": 92,
+      "isWater": false,
+      "updatedAt": "2026-10-06T04:38:55.095312+00:00",
+      "nutrition": {
+        "calories": 280,
+        "protein": 20,
+        "carbs": 31,
+        "fat": 9,
+        "sugar": 17,
+        "fiber": 3,
+        "sodium": 200,
         "waterMl": 0
       }
     },
@@ -144,7 +163,7 @@
       "aiComment": null,
       "confidence": 100,
       "isWater": true,
-      "updatedAt": "2026-10-05T21:48:56.893506+00:00",
+      "updatedAt": "2026-10-06T04:38:55.095312+00:00",
       "nutrition": {
         "calories": 0,
         "protein": 0,
@@ -154,6 +173,25 @@
         "fiber": 0,
         "sodium": 0,
         "waterMl": 887
+      }
+    },
+    {
+      "id": "2bce6e5f-058a-40fb-a829-3dd52ada7a55",
+      "description": "Baked salmon with rice and peppers",
+      "detailedDescription": "Oven baked salmon fillet, bell peppers, rice",
+      "aiComment": null,
+      "confidence": 75,
+      "isWater": false,
+      "updatedAt": "2026-10-06T04:38:55.095312+00:00",
+      "nutrition": {
+        "calories": 657,
+        "protein": 37.8,
+        "carbs": 73,
+        "fat": 22.7,
+        "sugar": 4.6,
+        "fiber": 3.5,
+        "sodium": 95,
+        "waterMl": 0
       }
     }
   ]
