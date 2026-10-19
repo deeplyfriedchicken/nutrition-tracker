@@ -3,14 +3,14 @@
   "date": "2026-10-19",
   "timezone": "America/Los_Angeles",
   "totals": {
-    "calories": 410,
-    "protein": 29,
-    "carbs": 30,
-    "fat": 20,
-    "sugar": 22,
-    "fiber": 4,
-    "sodium": 160,
-    "waterMl": 0
+    "calories": 1462,
+    "protein": 86,
+    "carbs": 79,
+    "fat": 90,
+    "sugar": 36,
+    "fiber": 18,
+    "sodium": 2767,
+    "waterMl": 296
   },
   "goals": {
     "calories": 3493,
@@ -30,7 +30,7 @@
       "aiComment": null,
       "confidence": 95,
       "isWater": false,
-      "updatedAt": "2026-10-19T16:07:10.294697+00:00",
+      "updatedAt": "2026-10-19T21:31:52.926986+00:00",
       "nutrition": {
         "calories": 80,
         "protein": 14,
@@ -49,7 +49,7 @@
       "aiComment": null,
       "confidence": 98,
       "isWater": false,
-      "updatedAt": "2026-10-19T16:07:10.294697+00:00",
+      "updatedAt": "2026-10-19T21:31:52.926986+00:00",
       "nutrition": {
         "calories": 330,
         "protein": 15,
@@ -58,6 +58,44 @@
         "sugar": 18,
         "fiber": 4,
         "sodium": 105,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "1c15d28e-9944-4262-8ae5-bc91564b1af5",
+      "description": "10oz water",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 100,
+      "isWater": true,
+      "updatedAt": "2026-10-19T21:31:52.926986+00:00",
+      "nutrition": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "sugar": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "waterMl": 296
+      }
+    },
+    {
+      "id": "b9f2ad01-6ce4-472d-9d56-5252c8b88934",
+      "description": "The Good Salad meal",
+      "detailedDescription": "The Good Salad - Bone Broth Bowl, Blazing Bird Salad - Arugula instead of spring mix",
+      "aiComment": null,
+      "confidence": 74,
+      "isWater": false,
+      "updatedAt": "2026-10-19T21:31:52.926986+00:00",
+      "nutrition": {
+        "calories": 1052,
+        "protein": 57,
+        "carbs": 49,
+        "fat": 70,
+        "sugar": 14,
+        "fiber": 14,
+        "sodium": 2607,
         "waterMl": 0
       }
     }
