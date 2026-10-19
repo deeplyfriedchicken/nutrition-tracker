@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-19",
+  "timezone": "America/Los_Angeles",
+  "totals": {
+    "calories": 410,
+    "protein": 29,
+    "carbs": 30,
+    "fat": 20,
+    "sugar": 22,
+    "fiber": 4,
+    "sodium": 160,
+    "waterMl": 0
+  },
+  "goals": {
+    "calories": 3493,
+    "protein": 140,
+    "carbs": 200,
+    "fat": 85,
+    "sugar": 25,
+    "fiber": 25,
+    "sodium": 2300,
+    "waterMl": 3000
+  },
+  "items": [
+    {
+      "id": "6d1b29b1-035f-4f6b-9d44-70b8855cb6f0",
+      "description": "chobani Greek yogurt",
+      "detailedDescription": null,
+      "aiComment": null,
+      "confidence": 95,
+      "isWater": false,
+      "updatedAt": "2026-10-19T16:07:10.294697+00:00",
+      "nutrition": {
+        "calories": 80,
+        "protein": 14,
+        "carbs": 6,
+        "fat": 0,
+        "sugar": 4,
+        "fiber": 0,
+        "sodium": 55,
+        "waterMl": 0
+      }
+    },
+    {
+      "id": "f06a4787-536b-4d45-98f1-12feea36e989",
+      "description": "Perfect Bar protein bar",
+      "detailedDescription": "dark chocolate chip peanut butter perfect protein bar",
+      "aiComment": null,
+      "confidence": 98,
+      "isWater": false,
+      "updatedAt": "2026-10-19T16:07:10.294697+00:00",
+      "nutrition": {
+        "calories": 330,
+        "protein": 15,
+        "carbs": 24,
+        "fat": 20,
+        "sugar": 18,
+        "fiber": 4,
+        "sodium": 105,
+        "waterMl": 0
+      }
+    }
+  ]
+}
