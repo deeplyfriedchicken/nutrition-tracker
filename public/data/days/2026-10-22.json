@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-22",
+  "timezone": "America/Los_Angeles",
+  "totals": {
+    "calories": 790,
+    "protein": 48,
+    "carbs": 44,
+    "fat": 47,
+    "sugar": 9,
+    "fiber": 3,
+    "sodium": 2260,
+    "waterMl": 0
+  },
+  "goals": {
+    "calories": 3493,
+    "protein": 140,
+    "carbs": 200,
+    "fat": 85,
+    "sugar": 25,
+    "fiber": 25,
+    "sodium": 2300,
+    "waterMl": 3000
+  },
+  "items": [
+    {
+      "id": "2acfa4ea-b14d-4d4b-926c-51fe9068e383",
+      "description": "In-N-Out 3x3 with grilled onions",
+      "detailedDescription": "In-n-out 3x3 whole grilled onions",
+      "aiComment": null,
+      "confidence": 92,
+      "isWater": false,
+      "updatedAt": "2026-10-23T04:08:22.566878+00:00",
+      "nutrition": {
+        "calories": 790,
+        "protein": 48,
+        "carbs": 44,
+        "fat": 47,
+        "sugar": 9,
+        "fiber": 3,
+        "sodium": 2260,
+        "waterMl": 0
+      }
+    }
+  ]
+}
